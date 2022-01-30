@@ -1,0 +1,140 @@
+/* селектор тега */
+h3 {
+    color: #CE0071;
+}
+h4 {
+    color: #9B2766;
+}
+h5 {
+    color: #860049;
+}
+h6 {
+    color: #E73A98;
+}
+
+/* селектор класс */
+.subtitle {
+    color: #FF6400;
+}
+.inline {
+    color: #A64100;
+}
+.link {
+    color: #FF8B40;
+}
+.list {
+    color: #FFAA73;
+}
+
+/* селектор ID */
+#subtitle {
+    color: #00A287;
+}
+#inline {
+    color: #1E796A;
+}
+#link {
+    color: #1E796A;
+}
+#list {
+    color: #1E796A;
+}
+
+/* приоритет/равнозначные селекторы */
+p {
+    color: #1A1EB2;
+}
+p {
+    color: #7375D8;
+}
+
+/* приоритет/сектор класса>селектор тега */
+.paragraph {
+    color: #080B74;
+}
+p {
+    color: #7375D8;
+}
+
+/* уточнение */
+div.text {
+    color: #007D1C;
+}
+.text {
+    color: #00C12B;
+}
+
+/* комбинация селекторов классов */
+.document.project {
+    color: #d12317;
+}
+.document {
+    color: #FFD840;
+}
+
+/* вложенность и приоритетность */
+div p {
+    color: #730065;
+}
+p {
+    color: #519600;
+}
+
+/* приоритетность */
+.block-one .words {
+    color: #FF0000;
+}
+.block-one p {
+    color: #8F04A8;
+}
+div p {
+    color: #3216B0;
+}
+div {
+    color: #a76d00;
+}
+
+/* комплексные селекторы */
+.text-one, .text-two {
+    color: #FF9500;
+}
+.text-three {
+    color: #389E28;
+}
+
+/* вложенность */
+.mail > p {
+    color: #980023;
+}
+.mail__clarification {
+    color: #93aa2a;
+}
+.mail__again + ul {
+    color: #3216B0;
+}
+
+/* непосрдественно домашка */
+.book {
+    color: #171135;
+}
+.book__title {
+    color: #d443c3;
+}
+.book__text {
+    color: #860049;
+}
+.book__text p{
+    color: #28c986;
+}
+span {
+    color: #a76d00;
+}
+div .book__first {
+    color: #da1bb4;
+}
+.book__first + p {
+    color: #FFD840;
+}
+.book__penultimate span {
+    color: #057D9F;
+}
